@@ -3,6 +3,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		Auto auto1 = new Auto();
+		auto1.merkki = "Toyota";
+		auto1.malli = "Yaris";
+		auto1.bensanMaara = 5;
+		auto1.naytaTiedot();
 
 	}
 } // main loppuu
@@ -39,7 +44,7 @@ class Auto {
 	
 	
 	// naytaTiedot-metodi:
-	public void NaytaTiedot() {
+	public void naytaTiedot() {
 		System.out.println("*** Auton tiedot ***");
 		System.out.println("Merkki: " + merkki);
 		System.out.println("Malli: " + malli);
