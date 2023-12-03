@@ -23,6 +23,13 @@ class Auto {
 	
 	
 	// oletusmuodostin:
+	public Auto() {
+
+		this.merkki = "";
+		this.malli = "";
+		this.bensanMaara = 0;
+
+	}
 	
 	
 	
@@ -32,14 +39,29 @@ class Auto {
 	
 	// auton toiminnot:
 	// jarruta-metodi:
+	public void jarruta() {
+
+		System.out.println("Auto jarruttaa");
+	}
+
 	
 	
 	
 	// kiihdyta-metodi:
+	public void kiihdyta() {
+	if (bensanMaara > 0) {
+        bensanMaara -= 1;
+		System.out.println("Auto kiindyttää"); }
+			else {
+				System.out.println("Bensa loppu");
+			}
+		}
+
 	
 	
 	
 	// tankkaa-metodi:
+	
 	
 	
 	
