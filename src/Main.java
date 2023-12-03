@@ -8,7 +8,8 @@ public class Main {
 		auto1.malli = "Yaris";
 		auto1.bensanMaara = 5;
 		auto1.naytaTiedot();
-
+		auto1.kiihdyta();
+		auto1.naytaTiedot();
 	}
 } // main loppuu
 
