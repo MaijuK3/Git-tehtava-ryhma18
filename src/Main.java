@@ -41,15 +41,20 @@ class Auto {
 	
 	
 	// kiihdyta-metodi:
-	public void kiihdytä() {
-
-		System.out.println("Auto kiihdyttää");
-	}
+	public void kiihdyta() {
+	if (bensanMaara > 0) {
+        bensanMaara -= 1;
+		System.out.println("Auto kiindyttää"); }
+			else {
+				System.out.println("Bensa loppu");
+			}
+		}
 
 	
 	
 	
 	// tankkaa-metodi:
+	
 	
 	
 	
