@@ -10,6 +10,7 @@ public class Main {
 		auto1.naytaTiedot();
 		auto1.kiihdyta();
 		auto1.naytaTiedot();
+		auto1.tankkaa(5);
 	}
 } // main loppuu
 
@@ -62,7 +63,14 @@ class Auto {
 	
 	
 	// tankkaa-metodi:
-	
+	public void tankkaa(int maara)
+	{		
+		System.out.println("Tankissa bensaa " + bensanMaara);
+		bensanMaara = bensanMaara + maara;
+		System.out.println("Tankkaus: " + maara);
+		System.out.println("Tankissa bensaa tankkauksen jälkeen: " + bensanMaara);
+
+	}
 	
 	
 	
