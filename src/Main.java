@@ -32,10 +32,20 @@ class Auto {
 	
 	// auton toiminnot:
 	// jarruta-metodi:
+	public void jarruta() {
+
+		System.out.println("Auto jarruttaa");
+	}
+
 	
 	
 	
 	// kiihdyta-metodi:
+	public void kiihdytä() {
+
+		System.out.println("Auto kiihdyttää");
+	}
+
 	
 	
 	
