@@ -23,6 +23,13 @@ class Auto {
 	
 	
 	// oletusmuodostin:
+	public Auto() {
+
+		this.merkki = "";
+		this.malli = "";
+		this.bensanMaara = 0;
+
+	}
 	
 	
 	
