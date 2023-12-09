@@ -11,6 +11,12 @@ public class Main {
 		auto1.kiihdyta();
 		auto1.naytaTiedot();
 		auto1.tankkaa(5);
+
+		Auto auto2 = new Auto("Audi", "A3", 6);
+		auto2.naytaTiedot();
+		auto2.kiihdyta();
+		auto2.naytaTiedot();
+		auto2.tankkaa(5);
 	}
 } // main loppuu
 
@@ -36,7 +42,12 @@ class Auto {
 	
 	
 	// parametrinen muodostin:
-	
+	public Auto(String merkki, String malli, int bensanMaara)
+	{
+		this.merkki = merkki;
+		this.malli = malli;
+		this.bensanMaara = bensanMaara;
+	}
 	
 	
 	// auton toiminnot:
