@@ -20,8 +20,6 @@ public class Main {
 	}
 } // main loppuu
 
-
-
 //Auto-luokka:
 class Auto {
 	// auton ominaisuudet:
@@ -36,10 +34,7 @@ class Auto {
 		this.merkki = "";
 		this.malli = "";
 		this.bensanMaara = 0;
-
 	}
-	
-	
 	
 	// parametrinen muodostin:
 	public Auto(String merkki, String malli, int bensanMaara)
@@ -49,16 +44,10 @@ class Auto {
 		this.bensanMaara = bensanMaara;
 	}
 	
-	
-	// auton toiminnot:
 	// jarruta-metodi:
 	public void jarruta() {
-
 		System.out.println("Auto jarruttaa");
 	}
-
-	
-	
 	
 	// kiihdyta-metodi:
 	public void kiihdyta() {
@@ -68,10 +57,7 @@ class Auto {
 			else {
 				System.out.println("Bensa loppu");
 			}
-		}
-
-	
-	
+		}	
 	
 	// tankkaa-metodi:
 	public void tankkaa(int maara)
@@ -80,10 +66,7 @@ class Auto {
 		bensanMaara = bensanMaara + maara;
 		System.out.println("Tankkaus: " + maara);
 		System.out.println("Tankissa bensaa tankkauksen jälkeen: " + bensanMaara);
-
 	}
-	
-	
 	
 	// naytaTiedot-metodi:
 	public void naytaTiedot() {
@@ -92,6 +75,5 @@ class Auto {
 		System.out.println("Malli: " + malli);
 		System.out.println("Bensan määrä: " + bensanMaara);
 	}	
-	
-	
+		
 } // Auto-luokka loppuu
